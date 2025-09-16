@@ -5,15 +5,17 @@
 ![Plotly](https://img.shields.io/badge/Visuals-Plotly-3F4F75.svg?style=flat&logo=plotly)
 ![Dev Container](https://img.shields.io/badge/Dev_Environment-Dev_Container-007ACC.svg?style=flat&logo=visualstudiocode)
 
-### [🚀 View the Live Application Here](https://correlacao-vacinacao-infantil-mhdi.streamlit.app/)
+### [View the Live Application Here](https://correlacao-vacinacao-infantil-mhdi.streamlit.app/)
 
 ---
 
 This project is an interactive web application that analyzes the correlation between childhood vaccination coverage and the Human Development Index (HDI) across Brazilian states from 1996 to 2021.
 
+It uses the [Brazil's National Immunization Program vaccination results in children under five years old, 1996-2021](https://doi.org/10.7303/syn26453964) dataset.
+
 The application is built with **Streamlit** and uses **Pandas** for data manipulation and **Plotly Express** for creating interactive visualizations.
 
-## 🖼️ Application Screenshot
+## Application Screenshot
 
 <p align="center">
   <img src="images/screenshot.png" alt="Application Screenshot" width="800"/>
@@ -21,7 +23,7 @@ The application is built with **Streamlit** and uses **Pandas** for data manipul
 
 ---
 
-## ✨ Features
+## Features
 
 * **Interactive Scatter Plot:** Visualize the relationship between vaccination coverage and HDI (income or education).
 * **Time Series Analysis:** Use the slider to select a specific year to analyze, from 1996 to 2021.
@@ -32,7 +34,7 @@ The application is built with **Streamlit** and uses **Pandas** for data manipul
 
 ---
 
-## 🔬 Analysis & Key Findings
+## Analysis & Key Findings
 
 The application allows for the exploration of complex, non-linear trends between human development and vaccination rates over two decades. The key findings embedded in the app's analysis text show:
 
@@ -43,7 +45,7 @@ The application allows for the exploration of complex, non-linear trends between
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Framework:** Streamlit
 * **Data Analysis & Scientific Computing:** Pandas, NumPy, SciPy
@@ -53,7 +55,7 @@ The application allows for the exploration of complex, non-linear trends between
 
 ---
 
-## ⚙️ How to Run the Project Locally
+## How to Run the Project Locally
 
 You can run this project using the included Dev Container (recommended) or by setting up a manual environment.
 
